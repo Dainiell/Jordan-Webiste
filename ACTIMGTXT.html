@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jordan Holy Grails</title>
+    <link rel="shortcut icon" href="pictures/jurdan.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial;
+            background-color: white;
+            padding: 50px;
+            position: relative;
+            overflow: hidden;
+            margin: 0;
+        }
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('pictures/BGjordan.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            opacity: 0.7; 
+            z-index: -1;
+        }
+        h1 {
+            text-align: center;
+            color: red;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px #000000;
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .gallery-item {
+            background-color: #262626;
+            border: 1px solid #262626;
+            border-radius: 10px;
+            width: 150px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 30px;
+        }
+        h3 {
+            margin-top: 20px;
+            color: white;
+        }
+        .gallery-item p {
+            color: #fff;
+            font-size: 14px;
+        }
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+        .logos {
+            text-align: center;
+            margin-top: 20px;
+            position: fixed;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .logos img {
+            height: 50px;
+            width: auto;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>The Holy Grails of Sneakerheads</h1>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="pictures/LostFOUND.jpg" alt="JORDAN 1 LOST & FOUND">
+            <h3>Jordan 1 Lost & Found</h3>
+            <p>The Lost & Found Jordan 1s, part of Nike's reimagined series, tell a story of how sneakers were often lost in storage in the backrooms of sneaker shops before they were discovered again.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="pictures/green.jpg" alt="JORDAN 4" title="OXIDIZED GREEN">
+            <h3>Jordan 4 Oxidized Green</h3>
+            <p>The Air Jordan 4 “Manila” gets its name from the vibrant green color that dominates the upper portion of the shoe. This bold hue is a nod to the lush tropics of the Philippines, specifically Manila, which was once a major stopover for American GIs during World War II.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="pictures/TRAVIS.webp" alt="Jordan 4" title="Travis">
+            <h3>Jordan 4 Travis Scott Blue</h3>
+            <p>The Air Jordan IV celebrates Travis Scott, hip-hop artist, record label founder and Houston sports fan extraordinaire. The collaborative design salutes to a bygone era of Houston football, when the team took the field in red, white and light blue.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="pictures/SIMENTO.jpg" alt="Jordan 3 White cement">
+            <h3>Jordan 3 White Cement</h3>
+            <p>The Air Jordan 3's original run only consisted of four colorways, three of which Jordan wore in an NBA setting. He favored the White Cement edition throughout the 1987-1988 regular season, and the colorway is most commonly associated with its appearance on his feet as he won the 1988 Slam Dunk Contest.</p>
+        </div>
+    </div>
+    <div class="logos">
+        <img src="pictures/JordanLogo.png" alt="Jordan Logo">
+        <img src="pictures/NikeLOGO.png" alt="Nike Logo">
+    </div>
+</body>
+
+</html>
